@@ -1,7 +1,6 @@
-function capitalizeWords(word: string) {
-  let result = `${word[0].toUpperCase()}${word.slice(1)}`;
-  console.log(result);
+function somar(n1: string, n2: string) {
+  return Number(n1) + Number(n2);
 }
-
-capitalizeWords(true);
-capitalizeWords("bruno"); //"Bruno"
+let result = somar("10", "16.6");
+console.log(result);
+// 26.6
