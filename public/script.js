@@ -1,3 +1,3 @@
-var nome = "Miller";
-var idade = 16;
-var viado = true;
+var coisas = ["ovos", 40, "unidades"];
+coisas.push(true);
+//
