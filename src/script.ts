@@ -1,3 +1,4 @@
-let parceiros: Array<string> = ["Miller", "João", "Gustavo"];
-let sorteio: Array<number> = [10, 20, 30, 40];
-let viados: Array<boolean> = [true, true, true];
+let coisas: any = ["ovos", 40, "unidades"];
+coisas.push(true);
+
+//
