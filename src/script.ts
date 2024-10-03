@@ -1,9 +1,11 @@
-let names = ["Bruno", "Miller", "Kendrick", "Walter", 90, 100, 50];
+function resume(user: { name: string; level: number }) {
+  return `Olá! Seja bem-vindo ao server, ${user.name}. 
+  Seu nível atual é ${user.level}, lute para upar.`;
+}
 
-names.forEach((name) => {
-  typeof name === "string"
-    ? console.log(name.toUpperCase())
-    : typeof name === "number"
-    ? console.log(name)
-    : null;
-});
+let user = {
+  name: "Bruno",
+  level: 0,
+};
+
+console.log(resume(user));
