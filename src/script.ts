@@ -1,6 +1,9 @@
-function somar(n1: string, n2: string) {
-  return Number(n1) + Number(n2);
-}
-let result = somar("10", "16.6");
-console.log(result);
-// 26.6
+let names = ["Bruno", "Miller", "Kendrick", "Walter", 90, 100, 50];
+
+names.forEach((name) => {
+  typeof name === "string"
+    ? console.log(name.toUpperCase())
+    : typeof name === "number"
+    ? console.log(name)
+    : null;
+});
