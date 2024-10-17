@@ -1,16 +1,9 @@
-type MethodTyping = { url: string; method: "GET" | "POST" };
+type calcFunction = (n1: number, n2: number) => number;
 
-function makeRequest(req: MethodTyping) {
-  console.log(req.url);
-  console.log(req.method);
-}
-
-// let url = "https://google.com";
-// let method: MethodTyping = "GET";
-
-let req: MethodTyping = {
-  url: "https://google.com",
-  method: "GET",
+const sum: calcFunction = (n1, n2) => {
+  return n1 + n2;
 };
 
-makeRequest(req);
+const sub: calcFunction = (n1, n2) => {
+  return n1 - n2;
+};
